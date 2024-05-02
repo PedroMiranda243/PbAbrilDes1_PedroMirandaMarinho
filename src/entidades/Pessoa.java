@@ -25,19 +25,17 @@ public class Pessoa {
         filho.add(p);
     }
 
-    public void arvore(int x){
-        if (filho == null){//caso base
-       return;
-      }
-      String format = "";
-      for (int i = 0; i < x; i++) {
-        format += " ";
-      }
-      String construtor = format + name +  ((conjuge == null) ? " -- Solteiro" : " -- Casado com: " + conjuge.name) + ((filho.isEmpty()) ? "" :" -- Filhos:"); 
-      System.out.println(construtor);
-      for (Pessoa c: filho) {
-        c.arvore(x++);
-      } 
+    public void arvore(int nivel) {
+        String prefixo = "";
+        for (int i = 0; i < nivel; i++) {
+            prefixo += "  ";
+        }
+        String estadoCivil = (conjuge == null) ? " -- Solteiro" : " -- Casado com: " + conjuge.name;
+        String filhos = (filho.isEmpty()) ? "" : " -- Filhos:";
+        System.out.println(prefixo + name + estadoCivil + filhos);
+        for (Pessoa filho : filho) {
+            filho.arvore(nivel + 1);
+        }
     }
 
     
