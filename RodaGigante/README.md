@@ -1,18 +1,6 @@
-## Getting Started
+## Objetivo
+Uma aplicação que gerencia as gôndolas de uma roda gigante aplicando as regras do parque.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Execução e funcionamento
+Criado o HashMap de 18 posições para as Gôndolas, com as informações instanciadas no método principal o programa aloca as pessoas nas gôndolas indicadas e verifica se não há nenhuma infração de regras do parque nessa alocação, caso haja é exibido uma mensagem alertando. Logo após imprime o Status das 18 Gòndolas no terminal.
+.
