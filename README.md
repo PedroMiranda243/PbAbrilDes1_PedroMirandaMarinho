@@ -6,7 +6,7 @@ Este repositório contém 4 cenários (cenário 1, 2 ,3 e extra) apresentados no
 ## Tecnologias Utilizadas
 
 - **Visual Studio Code:** Ambiente de desenvolvimento utilizado para a realização do desafio.
-- **Extension Pack for Java** Pacote de extensões desenvolvido pela microsoft, possibilita o desenvolvimento de aplicações em java no VSCode.
+- **Extension Pack for Java:** Pacote de extensões desenvolvido pela microsoft, possibilita o desenvolvimento de aplicações em java no VSCode.
 - **JDK & Java** Kit de desenvolvimento java e Java (versão 17).
 .
 
