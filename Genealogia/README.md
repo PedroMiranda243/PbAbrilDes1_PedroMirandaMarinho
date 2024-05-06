@@ -1,18 +1,7 @@
-## Getting Started
+## Objetivo 
+Apresentar uma árvoer genealógica de uma pessoa apresentando relações de pai/mãe e filho.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Execução e funcionamento 
+Utilizando o método main fornecido, já estão inseridos os dados das pessoas e as relações de partentesco da árvore. A classe Pessoa implementa o método *arvore*, que por sua vez imprime de maneira recursiva a árvore do objeto indicado,
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
