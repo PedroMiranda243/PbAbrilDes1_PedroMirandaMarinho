@@ -1,3 +1,7 @@
+import entities.Adult;
+import entities.Child;
+import entities.FerrisWheel;
+
 public class App {
     public static void main(String[] args) {
         FerrisWheel ferrisWheel = new FerrisWheel(); // Criando uma nova roda-gigante
