@@ -12,6 +12,11 @@ public class App {
          // Contando o número de ocorrências de ":-)" e ":-("
          int divertido = contarEmoticons(mensagem, ":-)");
          int chateado = contarEmoticons(mensagem, ":-(");
+
+           // Determinando o sentimento expresso na mensagem
+        String sentimento = determinarSentimento(divertido, chateado);
+
+        
      }
          // Método para contar o número de ocorrências de um emoticon na mensagem
     private static int contarEmoticons(String mensagem, String emoticon) {
@@ -23,4 +28,15 @@ public class App {
         }
         return count;
     }
+
+        // Método para determinar o sentimento expresso na mensagem
+        private static String determinarSentimento(int divertido, int chateado) {
+            if (divertido == chateado) {
+                return "neutro";
+            } else if (divertido > chateado) {
+                return "divertido";
+            } else {
+                return "chateado";
+            }
+        }
 }
