@@ -16,7 +16,11 @@ public class App {
            // Determinando o sentimento expresso na mensagem
         String sentimento = determinarSentimento(divertido, chateado);
 
-        
+         // Exibindo o sentimento
+         System.out.println("Sentimento expresso: " + sentimento);
+
+         // Fechando o scanner
+         scanner.close();
      }
          // Método para contar o número de ocorrências de um emoticon na mensagem
     private static int contarEmoticons(String mensagem, String emoticon) {
